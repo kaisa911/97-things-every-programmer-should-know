@@ -1,15 +1,15 @@
-# Act with Prudence
+# 审慎行事
 
-> *"Whatever you undertake, act with prudence and consider the consequences" Anon*
+> *"无论你在做什么, 都要审慎行事并考虑后果" Anon*
 
-No matter how comfortable a schedule looks at the beginning of an iteration, you can't avoid being under pressure some of the time. If you find yourself having to choose between "doing it right" and "doing it quick" it is often appealing to "do it quick" on the understanding that you'll come back and fix it later. When you make this promise to yourself, your team, and your customer, you mean it. But all too often the next iteration brings new problems and you become focused on them. This sort of deferred work is known as technical debt and it is not your friend. Specifically, Martin Fowler calls this deliberate technical debt in his [taxonomy of technical debt](http://martinfowler.com/bliki/TechnicalDebtQuadrant.html), which should not be confused with inadvertent technical debt.
+无论迭代开始时的时间表看起来多么舒适，你都无法避免在某些时候承受压力。如果你发现自己不得不在“做对”和“做快”之间做出选择，通常会选择“做快”，因为你理解到你以后会回来修复它。当你向自己、团队和客户作出这个承诺时，你是认真的。但往往下一个迭代会带来新的问题，你会把注意力集中在它们上面。这种推迟的工作被称为技术债，它不是你的朋友。具体来说，马丁·福勒在他的[技术债分类法](http://martinfowler.com/bliki/TechnicalDebtQuadrant.html)中将其称为故意的技术债，这不应与无意的技术债混淆。
 
-Technical debt is like a loan: You benefit from it in the short-term, but you have to pay interest on it until it is fully paid off. Shortcuts in the code make it harder to add features or refactor your code. They are breeding grounds for defects and brittle test cases. The longer you leave it, the worse it gets. By the time you get around to undertaking the original fix there may be a whole stack of not-quite-right design choices layered on top of the original problem making the code much harder to refactor and correct. In fact, it is often only when things have got so bad that you must fix it, that you actually do go back to fix it. And by then it is often so hard to fix that you really can't afford the time or the risk.
+技术债就像贷款一样：你在短期内从中受益，但是你必须支付利息，直到它完全还清为止。你的代码里的这些快捷的方式，使添加新功能和重构变得更加困难。它们是缺陷和脆弱的测试用例的温床。你离开它们时间越长，情况就变得更糟。当你开始进行原始修复时，可能会有一整堆不太正确的设计选择层叠在原始问题之上，使代码更难重构和纠正。事实上，通常只有当事情已经糟糕到你必须修复它时，你才会回去修复它。而到那时，它往往是如此难以修复，以至于你真的没有时间或风险来承担。
 
-There are times when you must incur technical debt to meet a deadline or implement a thin slice of a feature. Try not to be in this position, but if the situation absolutely demands it, then go ahead. But (and this is a big BUT) you must track technical debt and pay it back quickly or things go rapidly downhill. As soon as you make the decision to compromise, write a task card or log it in your issue tracking system to ensure that it does not get forgotten.
+有时候，为了满足截止日期或实现一个功能的一小部分，你必须承担技术债。尽量不要处于这种位置，但如果情况绝对需要，那么就去做吧。但是（这是一个大但是），你必须跟踪技术债并迅速偿还它，否则事情会迅速走下坡路。一旦你决定妥协，就写下一个任务卡或在你的问题跟踪系统中记录它，以确保它不会被遗忘。
 
-If you schedule repayment of the debt in the next iteration, the cost will be minimal. Leaving the debt unpaid will accrue interest and that interest should be tracked to make the cost visible. This will emphasize the effect on business value of the project's technical debt and enables appropriate prioritization of the repayment. The choice of how to calculate and track the interest will depend on the particular project, but track it you must.
+如果你在下一个迭代中安排偿还债务，它的成本将是最小的。未偿还的债务将会产生利息，这些利息应该被跟踪以使成本可见。这将强调项目技术债对业务价值的影响，并使偿还得到适当的优先级。如何计算和跟踪利息的选择将取决于特定的项目，但你必须跟踪它。
 
-Pay off technical debt as soon as possible. It would be imprudent to do otherwise.
+尽快偿还技术债，否则会不明智。
 
-By [Seb Rose](http://programmer.97things.oreilly.com/wiki/index.php/Seb_Rose)
+作者 [Seb Rose](http://programmer.97things.oreilly.com/wiki/index.php/Seb_Rose)
