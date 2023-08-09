@@ -1,30 +1,19 @@
 # 询问“用户会怎么做？”（你不是用户）
 
-We all tend to assume that other people think like us. But they don't. Psychologists call this the false consensus bias. When people think or act differently to us, we're quite likely to label them (subconsciously) as defective in some way.
+我们常常以为别人跟我们想得一样，其实并非如此。心理学家把这种倾向叫做假共识效应 。当别人跟我们有不同的想法或行为，我们很容易（潜意识地）认为他们有什么毛病。
 
-我们都倾向于认为其他人的想法和我们一样。但他们不是。心理学家称之为假共识偏见。当人们的想法或行为与我们不同，我们很可能会（下意识地）将他们标记为某种缺陷。
+这种偏见可以解释为什么程序员难以换位思考。用户的思维方式跟程序员不一样。首先，他们用计算机的时间远比程序员少。他们对计算机的工作原理不感兴趣，也不了解。这意味着他们不能运用程序员熟悉的解决问题的技巧。他们也不知道程序员用来操作、理解和控制界面的模式和提示。
 
-This bias explains why programmers have such a hard time putting themselves in the users' position. Users don't think like programmers. For a start, they spend much less time using computers. They neither know nor care how a computer works. This means they can't draw on any of the battery of problem-solving techniques so familiar to programmers. They don't recognize the patterns and cues programmers use to work with, through, and around an interface.
+要了解用户的思维方式，最好的方法是观察用户。让用户用类似你正在开发的软件来完成任务。要确保任务是真实的，比如“加一列数字”就可以，最好是“计算上个月的开支”。要避免过于具体的任务，比如“你能选中这些电子表格单元格并在下面输入 SUM 公式吗？”——这个问题已经暗示了答案。让用户说出他或她的想法和做法。不要打断。不要帮忙。要一直问自己“他为什么这么做？”和“她为什么没这么做？”
 
-这种偏见解释了为什么程序员很难站在用户的立场上。用户不像程序员那样思考。首先，他们使用计算机的时间要少得多。他们既不知道也不关心计算机是如何工作的。这意味着他们无法利用程序员熟悉的任何问题解决技巧。他们不认识程序员用来处理、通过和绕过界面的模式和提示。
+你会发现，用户完成核心任务的方式很相似。他们会按照同样的顺序来做事——并且会在同样的地方出错。你应该根据这种核心行为来设计软件。这跟设计会议不一样，在设计会议上，人们经常说“如果用户想……”这样的话。这会导致功能过于复杂，而且混淆了用户的真正需求。观察用户可以消除这种混淆。
 
-The best way to find out how users think is to watch one. Ask a user to complete a task using a similar piece of software to what you're developing. Make sure the task is a real one: "Add up a column of numbers" is OK; "Calculate your expenses for the last month" is better. Avoid tasks that are too specific, such as "Can you select these spreadsheet cells and enter a *SUM* formula below?" — there's a big clue in that question. Get the user to talk through his or her progress. Don't interrupt. Don't try to help. Keep asking yourself "Why is he doing that?" and "Why is she not doing that?"
+你会看到用户陷入困境。当你陷入困境时，你会四处寻找线索。当用户陷入困境时，他们会把注意力集中在很小的范围内。这使得他们很难在屏幕上其他地方找到解决方案。这就是为什么帮助文本是一个糟糕的解决方案之一，它不能弥补不好的用户界面设计。如果你必须提供说明或帮助文本，请确保把它放在问题区域附近。用户注意力的集中是为什么工具提示比帮助菜单更有效的原因之一。
 
-了解用户思维方式的最佳方法是观察用户。请用户使用类似于您正在开发的软件的软件完成任务。确保任务是真实的：“加一列数字”是可以的；“计算上个月的开支”更好。避免过于具体的任务，例如“你能选择这些电子表格单元格并在下面输入SUM公式吗？”——这个问题中有一个很大的提示。让用户谈论他或她的进展。不要打断。不要试图帮助。不断问自己“他为什么那样做？”和“她为什么不那样做？”
+用户很容易混淆。他们会找到一种能够完成任务的方法，并且坚持使用，不管有多复杂。最好只提供一种明确而简单的方法，而不是多个快捷方式。
 
-The first thing you'll notice is that users do a core of things similarly. They try to complete tasks in the same order — and they make the same mistakes in the same places. You should design around that core behavior. This is different from design meetings, where people tend to be listened to for saying "What if the user wants to...?" This leads to elaborate features and confusion over what users want. Watching users eliminates this confusion.
+你还会发现，用户说他们想要什么和他们真正需要什么之间有差距。这很令人担忧，因为收集用户需求的常规方法是问他们。这就是为什么获取需求的最佳方法是观察用户。花一个小时观察用户比花一天猜测他们想要什么更有效。
 
-你会注意到的第一件事是，用户以相似的方式完成核心任务。他们尝试按相同的顺序完成任务——并且在相同的位置犯同样的错误。你应该围绕这种核心行为进行设计。这与设计会议不同，人们往往会听到“如果用户想要……”这句话。这导致了复杂的功能和对用户需求的混淆。观察用户消除了这种混淆。
-
-You'll see users getting stuck. When you get stuck, you look around. When users get stuck, they narrow their focus. It becomes harder for them to see solutions elsewhere on the screen. It's one reason why help text is a poor solution to poor user interface design. If you must have instructions or help text, make sure to locate it right next to your problem areas. A user's narrow focus of attention is why tool tips are more useful than help menus.
-
-你会看到用户卡住了。当你卡住时，你会四处看。当用户卡住时，他们会缩小他们的注意力范围。这使得他们更难在屏幕上的其他地方看到解决方案。这是为什么帮助文本是解决不良用户界面设计的不良解决方案之一的原因之一。如果你必须有说明或帮助文本，请确保将其放在问题区域的旁边。用户注意力的狭窄焦点是为什么工具提示比帮助菜单更有用的原因之一。
-
-Users tend to muddle through. They'll find a way that works and stick with it no matter how convoluted. It's better to provide one really obvious way of doing things than two or three shortcuts.
-You'll also find that there's a gap between what users say they want and what they actually do. That's worrying as the normal way of gathering user requirements is to ask them. It's why the best way to capture requirements is to watch users. Spending an hour watching users is more informative than spending a day guessing what they want.
-
-用户往往会混淆。他们会找到一种行之有效的方法，并坚持不懈，无论多么复杂。最好提供一种非常明显的做事方式，而不是两三个快捷方式。 
-你还会发现，用户说他们想要什么和他们实际做什么之间存在差距。这令人担忧，因为收集用户需求的正常方式是询问他们。这就是为什么捕捉需求的最佳方法是观察用户。花一个小时观察用户比花一天猜测他们想要什么更有意义。
-
+你还会发现，用户说他们想要什么和他们真正需要什么之间有差距。这很令人担忧，因为收集用户需求的常规方法是问他们。这就是为什么获取需求的最佳方法是观察用户。花一个小时观察用户比花一天猜测他们想要什么更有效。
 
 作者：[Giles Colborne](http://programmer.97things.oreilly.com/wiki/index.php/Giles_Colborne)
